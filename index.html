@@ -93,7 +93,7 @@ with an &quot;e&quot; to make &quot;the.&quot; </p>
 
 <h2>6. Cross-linear Additions and Deletions &lt;addSpan&gt; &lt;delSpan&gt; &lt;anchor xml:id/&gt;</h2>
 
-<pre>&lt;line&gt;&lt;delSpan rend=&quot;vertical_line&quot; spanTo=&quot;#c56-0015.01&quot;/&gt;ph¾nonema. On Elizabeth and&lt;/line&gt;
+<pre>&lt;line&gt;&lt;delSpan rend=&quot;vertical_line&quot; spanTo=&quot;#c56-0015.01&quot;/&gt;phaenonema. On Elizabeth and&lt;/line&gt;
 &lt;line&gt;Clerval it produced a &lt;del rend=&quot;strikethrough&quot;&gt;di&lt;/del&gt; very different&lt;/line&gt;
 &lt;line&gt;effect. They admired the beauty&lt;/line&gt;
 &lt;line&gt;of the storm without wishing to&lt;/line&gt;
@@ -125,8 +125,8 @@ caret and the additional text it signifies.</p>
 caret was inserted below the line after &quot;for&quot; and indicates that the
 &quot;he&quot; added above the line should be inserted.</p>
 
-<p>8. Cross-linear
-Modifications &lt;mod&gt;&lt;add next=&quot;&quot;&gt;</b></p>
+<h2>8. Cross-linear
+Modifications &lt;mod&gt;&lt;add next=&quot;&quot;&gt;</h2>
 
 <p>Let's
 take a look at a complex modification that spans several lines. These are more
@@ -136,28 +136,11 @@ cross-linear additions and deletions by inserting the &quot;next&quot;
 attribute within the element and linking it to an xml:id
 with the same value within the partner addition or deletion. </p>
 
-<p>&lt;line&gt;&lt;mod&gt;&lt;del
-rend=&quot;strikethrough&quot; next=&quot;#c56-0013.01&quot;&gt;When it was
-most&lt;/del&gt;</p>
-
-<p><span
-style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot;
-next=&quot;#c56-0013.02&gt;As I stood at the <span style="mso-spacerun:
-yes">&nbsp;&nbsp;</p>
-
-<p><span
-style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; door&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</p>
-
-<p>&lt;line&gt;&lt;mod&gt;&lt;del
-rend=&quot;strikethrough xml:id=&quot;c56-0013.01&quot;&gt;violent&lt;/del&gt;,</p>
-
-<p><span
-style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot;
-xml:id=&quot;c56-0013.02&gt;on a<span
-style="mso-spacerun: yes">&nbsp; </p>
-
-<p><span
-style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp; sudden&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</p>
+<pre>&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough&quot; next=&quot;#c56-0013.01&quot;&gt;When it was most&lt;/del&gt; &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; next=&quot;#c56-0013.02&gt;As I stood at the door&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;
+&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough xml:id=&quot;c56-0013.01&quot;&gt;violent&lt;/del&gt;,
+&lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot;
+xml:id=&quot;c56-0013.02&gt;on a
+sudden&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</pre>
 
 <p>We can now clearly see that &quot;When it was most {line break} violent&quot; was replaced with the superlinear addition of &quot;As I
 stood at the door {line break} on a sudden&quot;</p>
