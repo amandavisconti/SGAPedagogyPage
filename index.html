@@ -116,7 +116,8 @@ in my sensations; before&lt;/line&gt;</pre>
 <p>The &lt;mod&gt; element is also used to group together a
 caret and the additional text it signifies.</p>
 
-<pre>&lt;line&gt;. . . for &lt;mod&gt;&lt;add place=&quot;sublinear&quot;&gt;&lt;metamark&gt;&amp;#x2038;&lt;/metamark&gt;&lt; /add&gt; &lt;add place=&quot;superlinear&quot;&gt;he&lt;/add&gt;&lt;/mod&gt; was&lt;del rend=&quot;strikethrough&quot;&gt;con&lt;/del&gt; constantly&lt;/line&gt;</pre>
+<pre>&lt;line&gt;. . . for &lt;mod&gt;&lt;add place=&quot;sublinear&quot;&gt;&lt;metamark&gt;&amp;#x2038;&lt;/metamark&gt;&lt;/add&gt; 
+&lt;add place=&quot;superlinear&quot;&gt;he&lt;/add&gt;&lt;/mod&gt; was&lt;del rend=&quot;strikethrough&quot;&gt;con&lt;/del&gt; constantly&lt;/line&gt;</pre>
 
 <p>The
 caret was inserted below the line after &quot;for&quot; and indicates that the
@@ -133,8 +134,10 @@ cross-linear additions and deletions by inserting the &quot;next&quot;
 attribute within the element and linking it to an xml:id
 with the same value within the partner addition or deletion. </p>
 
-<pre>&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough&quot; next=&quot;#c56-0013.01&quot;&gt;When it was most&lt;/del&gt; &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; next=&quot;#c56-0013.02&gt;As I stood at the door&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;
-&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough xml:id=&quot;c56-0013.01&quot;&gt;violent&lt;/del&gt;, &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; xml:id=&quot;c56-0013.02&gt;on a sudden&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</pre>
+<pre>&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough&quot; next=&quot;#c56-0013.01&quot;&gt;When it was most&lt;/del&gt; 
+	&lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; next=&quot;#c56-0013.02&gt;As I stood at the door&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;
+&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough xml:id=&quot;c56-0013.01&quot;&gt;violent&lt;/del&gt;, 
+	&lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; xml:id=&quot;c56-0013.02&gt;on a sudden&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</pre>
 
 <p>We can now clearly see that &quot;When it was most {line break} violent&quot; was replaced with the superlinear addition of &quot;As I
 stood at the door {line break} on a sudden&quot;</p>
