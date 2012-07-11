@@ -20,10 +20,6 @@
           <h1 id="project_title">SGA Pedagogy</h1>
           <h2 id="project_tagline">Markup Pedagogy Pages for the Shelley-Godwin Archive</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/amandavisconti/SGApedagogy/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/amandavisconti/SGApedagogy/tarball/master">Download this project as a tar.gz file</a>
-            </section>
         </header>
     </div>
 
@@ -187,53 +183,30 @@ above example, the addition was later deleted, so it is nested within the
 <p>The
 following example is more complex:</p>
 
-<p>&lt;zone
-type=&quot;left_margin&quot;&gt;</p>
-
-<p>&lt;delSpan rend=&quot;vertical_line&quot;
-spanTo=&quot;#c57-0078.02&quot;/&gt;</p>
-
-<p>&lt;addSpan xml:id=&quot;#c57-0078.03&quot;
-spanTo=&quot;#c57-0078.02&quot; hand=&quot;#pbs&quot;/&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;I
-think&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;the
-journey&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;to
-England&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;ought to
-be&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;&lt;hi
-rend=&quot;underline&quot;&gt;Victor's&lt;/hi&gt; propo&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;-sal.&#8212; that he&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;ought to
-go&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;for the
-purpose of&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
-&lt;line&gt;collecting&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
-&lt;line&gt;knowledge, for&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;the
-formation&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;of a
-female.&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;He ought
-to&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;lead his
-father to&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;this
-in&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;the conversa&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;tions&#8212;the&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;
-&lt;line&gt;conversation&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;&lt;hi
-rend=&quot;underline&quot;&gt;commences&lt;/hi&gt;&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp; &lt;line&gt;right
-enough&lt;/line&gt;&lt;anchor xml:id=&quot;c57-0078.02&quot;/&gt;</p>
-
-<p>&lt;/zone&gt;</p>
+<pre>&lt;zone type=&quot;left_margin&quot;&gt;
+&lt;delSpan rend=&quot;vertical_line&quot; spanTo=&quot;#c57-0078.02&quot;/&gt;
+&lt;addSpan xml:id=&quot;#c57-0078.03&quot; spanTo=&quot;#c57-0078.02&quot; hand=&quot;#pbs&quot;/&gt;
+	&lt;line&gt;I think&lt;/line&gt;
+	&lt;line&gt;the journey&lt;/line&gt;
+	&lt;line&gt;to England&lt;/line&gt;
+	&lt;line&gt;ought to be&lt;/line&gt;
+	&lt;line&gt;&lt;hi rend=&quot;underline&quot;&gt;Victor's&lt;/hi&gt; propo&lt;/line&gt;
+	&lt;line&gt;-sal.&#8212; that he&lt;/line&gt;
+	&lt;line&gt;ought to go&lt;/line&gt;
+	&lt;line&gt;for the purpose of&lt;/line&gt;
+	&lt;line&gt;collecting&lt;/line&gt;
+	&lt;line&gt;knowledge, for&lt;/line&gt;
+	&lt;line&gt;the formation&lt;/line&gt;
+	&lt;line&gt;of a female.&lt;/line&gt;
+	&lt;line&gt;He ought to&lt;/line&gt;
+	&lt;line&gt;lead his father to&lt;/line&gt;
+	&lt;line&gt;this in&lt;/line&gt;
+	&lt;line&gt;the conversa&lt;/line&gt;
+	&lt;line&gt;tions&#8212;the&lt;/line&gt;
+	&lt;line&gt;conversation&lt;/line&gt;
+	&lt;line&gt;&lt;hi rend=&quot;underline&quot;&gt;commences&lt;/hi&gt;&lt;/line&gt;
+	&lt;line&gt;right enough&lt;/line&gt;&lt;anchor xml:id=&quot;c57-0078.02&quot;/&gt;
+&lt;/zone&gt;</pre>
 
 <p>This marginal addition, in the hand of Percy, was ultimately
 deleted by striking through the text with a vertical line. There are also
@@ -318,7 +291,7 @@ extent=&quot;2&quot;/&gt;Soon after this the young man <span style='mso-tab-coun
 
 <p>&lt;zone
 type=&quot;left_margin&quot;&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;&nbsp;
 &lt;line&gt;&lt;add xml:id=&quot;c57-0013.05&quot;&gt;nature
 they &lt;add place=&quot;superlinear&quot;&gt;were <span
 style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a&lt;/add&gt;&lt;/line&gt;</p>
@@ -331,17 +304,17 @@ style='mso-special-character:line-break'>
 <p>&lt;zone
 type=&quot;left_margin&quot;&gt;&lt;addSpan xml:id=&quot;c57-0013.07&quot;
 spanTo=&quot;#c57-0013.08&quot;/&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
 &lt;line&gt;withdrew&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
 &lt;line&gt;from my station&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
 &lt;line&gt;&lt;handShift new=&quot;#pbs&quot;/&gt;unable to&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
 &lt;line&gt;bear these&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
 &lt;line&gt;&lt;del rend=&quot;strikethrough&quot;&gt;emotio&lt;/del&gt;ns&lt;/line&gt;<br>
-<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
 &lt;line&gt;&lt;handShift new=&quot;#mws&quot;/&gt;emotions&lt;/line&gt;&lt;anchor xml:id=&quot;c57-0013.07&quot;/&gt;</p>
 
 <p>&lt;/zone&gt;</p>
