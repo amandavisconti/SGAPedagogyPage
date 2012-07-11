@@ -272,9 +272,7 @@ the main zone. </p>
 indicate an addition in a hand other than that of the primary author, use the
 &quot;hand&quot; attribute within the &lt;add&gt; element.</p>
 
-<p>&lt;line&gt;string
-&lt;mod&gt;&lt;del rend=&quot;strikethrough&quot;&gt;and&lt;/del&gt;&lt;add
-place=&quot;superlinear&quot; hand=&quot;#pbs&gt;which&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</p>
+<pre>&lt;line&gt;string &lt;mod&gt;&lt;del rend=&quot;strikethrough&quot;&gt;and&lt;/del&gt;&lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&gt;which&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</pre>
 
 <p>To
 indicate a shift in hands, use the &lt;handShift&gt;
@@ -285,71 +283,51 @@ with &lt;handShift new=&quot;#pbs/&gt;.
 The backslash indicates that the element is empty and that the shift in hand
 continues until another shift in hand takes place.</p>
 
-<p>12. Uncertain
-Readings &lt;unclear unit=&quot;char&quot; extent=&quot;&quot;&gt;</b></p>
+<h2>12. Uncertain
+Readings &lt;unclear unit=&quot;char&quot; extent=&quot;&quot;&gt;</h2>
 
 <p>Text that is illegible is enclosed within the
 &lt;unclear&gt; element. If the text is partially recognizable, indicate it as
 follows:</p>
 
-<p>&lt;line&gt;During her confinement &lt;unclear&gt;mady&lt;/unclear&gt; many&lt;/line&gt;</p>
+<pre>&lt;line&gt;During her confinement &lt;unclear&gt;mady&lt;/unclear&gt; many&lt;/line&gt;</pre>
 
 <p>If the text is obscured by ink blots, foxing, or is
 completely illegible. Use an empty &lt;unclear&gt; tag and indicate the
 approximate length of the uncertain reading. &quot;char&quot; stands for
 &quot;characters&quot;.</p>
 
-<p>&lt;line&gt;During her confinement &lt;unclear
-unit=&quot;char&quot; extent=&quot;4&quot;/&gt; many&lt;line&gt;</p>
+<pre>&lt;line&gt;During her confinement &lt;unclear unit=&quot;char&quot; extent=&quot;4&quot;/&gt; many&lt;line&gt;</pre>
 
-<p>13. Encoding Spaces
-&lt;space extent=&quot;&quot;&gt;</b></p>
+<h2>13. Encoding Spaces
+&lt;space extent=&quot;&quot;&gt;</h2>
 
 <p>To encode significant spaces between passages or words, use
 the &lt;space&gt; element and indicate the length of the space.</p>
 
-<p>&lt;line&gt;acquired &lt;space unit=&quot;char&quot; extent=&quot;20&quot;/&gt;
-and&lt;/line&gt;</p>
+<pre>&lt;line&gt;acquired &lt;space unit=&quot;char&quot; extent=&quot;20&quot;/&gt; and&lt;/line&gt;</pre>
 
 <p>Do not encode spaces unless there is a noticeable gap that
 extends well beyond the normal variation of spaces within a handwritten
 manuscript.</p>
 
-<p>14. Damage to the
-Manuscript &lt;damage&gt;</b></p>
+<h2>14. Damage to the
+Manuscript &lt;damage&gt;</h2>
 
 <p>If text is illegible or missing from manuscript because of
 damage, such as being torn or cut away, use the &lt;damage&gt; element. The
 reviewer will add more details to the encoding. </p>
 
-<p>15. </b><b
-style='mso-bidi-font-weight:normal'>Special
-Character Entities (hexadecimal values)</b></p>
+<h2>15. Special
+Character Entities (hexadecimal values)</h2>
 
-<p><span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></p>
-
-<p>Caret
-(^): &amp;#x2038;</p>
-
-<p>Ampersand
-(&amp;): <span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:black;background:white'>&amp;#x26;<span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'></p>
-
-<p>Em-dash (&#8212;):<span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
-color:black;background:white'>&amp;#x2014;<span style='mso-fareast-font-family:
-"Times New Roman";mso-bidi-font-family:"Times New Roman"'></p>
-
-<p>En-dash
-(&#8211;):<span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:black;background:white'>&amp;#x2013;<span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'></p>
-
-<p>¾ dipthong: <span style='mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:black;background:white'>&amp;#xE6;<span
-style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman"'></p>
+<pre>
+Caret (^): &#x2038;
+Ampersand (&): &#x26;
+Em-dash (Ñ):&#x2014;
+En-dash (Ð):&#x2013;
+¾ dipthong: &#xE6;
+</pre>
 
 <p>15. Paratextual
 Notations and Additions &lt;note&gt; &lt;metamark&gt;</b></p>
