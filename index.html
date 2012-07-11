@@ -137,15 +137,14 @@ attribute within the element and linking it to an xml:id
 with the same value within the partner addition or deletion. </p>
 
 <pre>&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough&quot; next=&quot;#c56-0013.01&quot;&gt;When it was most&lt;/del&gt; &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; next=&quot;#c56-0013.02&gt;As I stood at the door&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;
-&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough xml:id=&quot;c56-0013.01&quot;&gt;violent&lt;/del&gt;, &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot;
-xml:id=&quot;c56-0013.02&gt;on a sudden&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</pre>
+&lt;line&gt;&lt;mod&gt;&lt;del rend=&quot;strikethrough xml:id=&quot;c56-0013.01&quot;&gt;violent&lt;/del&gt;, &lt;add place=&quot;superlinear&quot; hand=&quot;#pbs&quot; xml:id=&quot;c56-0013.02&gt;on a sudden&lt;/add&gt;&lt;/mod&gt;&lt;/line&gt;</pre>
 
 <p>We can now clearly see that &quot;When it was most {line break} violent&quot; was replaced with the superlinear addition of &quot;As I
 stood at the door {line break} on a sudden&quot;</p>
 
 <h2>9. Linking Material from Different Zones &lt;ptr&gt;</h2>
 
-<p>In the <i style='mso-bidi-font-style:normal'>Frankenstein</i>
+<p>In the <em>Frankenstein</em>
 rough draft, many of the pages are divided by a vertical pencil line that
 creates an empty left margin within which to make additions or add comments. To
 link additions from the left margin to the text in the main draft zone, use the
@@ -159,15 +158,13 @@ end of an &lt;addSpan&gt;. The &lt;anchor/&gt;
 element is empty and only indicates the end of a sequence of text. The xml:id in the &lt;add&gt; or &lt;addSpan&gt;
 element identifies the passage that is meant to be inserted into the main zone.</p>
 
-<p>&lt;zone type=&quot;main&quot;&gt;</p>
+<pre>
+&lt;zone type=&quot;main&quot;&gt;
+&lt;line&gt;
+. . . &lt;add&gt;&lt;ptr target=&quot;#c56-0014.02&quot;/&gt;&lt;/add&gt; . . . &lt;/line&gt;
+&lt;zone/&gt;
 
-<p>&lt;line&gt;
-. . . &lt;add&gt;&lt;ptr
-target=&quot;#c56-0014.02&quot;/&gt;&lt;/add&gt; . . . &lt;/line&gt;</p>
-
-<p>&lt;zone/&gt;</p>
-
-<p>&lt;zone
+&lt;zone
 type=&quot;left_margin&quot;&gt;<br>
 <span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &lt;addSpan xml:id=&quot;c56-0014.02&quot;
