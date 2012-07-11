@@ -56,25 +56,23 @@ manuscript sources will determine what kinds of zones will be used.</p>
 <p>To indicate a paragraph break, use the &lt;milestone&gt;
 element. </p>
 
-<pre>&lt;line&gt;This is the end of a paragraph.&lt;/line&gt;</p>
-
-<p>&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;line&gt;&lt;space
-extent=&quot;3&quot;/&gt;This is the start of a new paragraph.&lt;/line&gt;</pre>
+<pre>&lt;line&gt;This is the end of a paragraph.&lt;/line&gt;
+&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;line&gt;&lt;space extent=&quot;3&quot;/&gt;This is the start of a new paragraph.&lt;/line&gt;</pre>
 
 <p>The backslash &quot;/&quot; indicates that the element is
 empty, so it does not require a closing element.</p>
 
 <h2>4. Simple Additions &lt;add place=&quot;superlinear&quot; &quot;sublinear&quot; &quot;intralinear&quot;&gt;</h2>
 
-<p>&lt;line&gt;the wild fancies of the&lt;add place=&quot;intralinear&quot; hand=&quot;pbs&quot;&gt;se&lt;/add&gt;
-authors with&lt;/line&gt;</p>
+<pre>&lt;line&gt;the wild fancies of the&lt;add place=&quot;intralinear&quot; hand=&quot;pbs&quot;&gt;se&lt;/add&gt;
+authors with&lt;/line&gt;</pre>
 
 <p>Here, Percy has simply added &quot;se&quot; to the to make
 &quot;these.&quot; For additions that appear above the line use the &quot;superlinear&quot; attribute, for those below use &quot;sublinear&quot;.</p>
 
-<p>&lt;line&gt;I &lt;add place=&quot;superlinear&quot;
+<pre>&lt;line&gt;I &lt;add place=&quot;superlinear&quot;
 hand=&quot;#pbs&quot;&gt;cheerfully&lt;/add&gt;
-consented.&lt;/line&gt;</p>
+consented.&lt;/line&gt;</pre>
 
 <p>5. Simple Deletions
 &lt;del rend=&quot;strikethrough&quot; &quot;smear&quot;
