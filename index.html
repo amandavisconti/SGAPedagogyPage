@@ -33,9 +33,7 @@
 
 <h2>1. Zones &lt;zone&gt;</h2>
 
-<pre>&lt;zone
-type=&quot;main&quot; &quot;left_margin&quot;
-&quot;library&quot; &quot;pagination&quot; &quot;top&quot;&gt;</pre>
+<pre>&lt;zone type=&quot;main&quot; &quot;left_margin&quot; &quot;library&quot; &quot;pagination&quot; &quot;top&quot;&gt;</pre>
 
 <p>The manuscript page is divided into zones. The &quot;main&quot; zone contains the
 main body of writing. The &quot;pagination&quot; zone contains page numbers
@@ -51,19 +49,17 @@ manuscript sources will determine what kinds of zones will be used.</p>
 
 <p>Each line of writing in the manuscript is nested within the &lt;line&gt; element. </p>
 
-<p>&lt;line&gt;of
-the storm without wishing to&lt;/line&gt;<b style='mso-bidi-font-weight:
-normal'></b></p>
+<pre>&lt;line&gt;of the storm without wishing to&lt;/line&gt;</pre>
 
 <h2>3. Paragraphs &lt;milestone unit=&quot;tei:p&quot;/&gt;</h2>
 
 <p>To indicate a paragraph break, use the &lt;milestone&gt;
 element. </p>
 
-<p>&lt;line&gt;This is the end of a paragraph.&lt;/line&gt;</p>
+<pre>&lt;line&gt;This is the end of a paragraph.&lt;/line&gt;</p>
 
 <p>&lt;milestone unit=&quot;tei:p&quot;/&gt;&lt;line&gt;&lt;space
-extent=&quot;3&quot;/&gt;This is the start of a new paragraph.&lt;/line&gt;</p>
+extent=&quot;3&quot;/&gt;This is the start of a new paragraph.&lt;/line&gt;</pre>
 
 <p>The backslash &quot;/&quot; indicates that the element is
 empty, so it does not require a closing element.</p>
