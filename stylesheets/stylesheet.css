@@ -430,14 +430,21 @@ Small Device Styles
 
 }
 
-.current {
-text-decoration: underline;
+
+
+#nav {
+padding-bottom: 5px;
+padding-top: 8px;
+margin-left: -20px;
 }
 
-li .current {
-text-decoration: underline;
+#nav ul {
+
 }
 
-.current a {
-text-decoration: underline;
+#nav ul li {
+font-weight: bold;
+list-style-type: none;
+float: left;
+font-size: 18px;
 }
