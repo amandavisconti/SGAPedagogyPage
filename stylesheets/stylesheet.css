@@ -429,3 +429,15 @@ Small Device Styles
   }
 
 }
+
+.current {
+text-decoration: underline;
+}
+
+li .current {
+text-decoration: underline;
+}
+
+.current a {
+text-decoration: underline;
+}
